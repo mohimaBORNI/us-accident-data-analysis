@@ -67,9 +67,6 @@ You can download it from Kaggle:
 ### Top 10 Accident-Prone Cities
 ![Top Cities](images/top_10_accident_prone_city.png)
 
-### Top 10 Accident-Prone States
-![Top States](images/top_10_accident_prone_state.png)
-
 
 ### Accident Heatmap
 ![Heatmap](images/distribution_heatmap.png)
