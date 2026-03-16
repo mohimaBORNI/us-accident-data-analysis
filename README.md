@@ -79,6 +79,19 @@ You can download it from Kaggle:
 ### Visibility Impact
 ![Visibility](images/Accident_severity_by_visibility.png)
 
+### Monthly Trends
+![Monthly Trends](images/Monthly_road_accident_trend_by_year.png)
+
+### Weekday Analysis
+![Weekday Analysis](images/Weekday_Analysis.png)
+
+### Accident Distribution
+![Accident Distribution](images/accident_distribution.png)
+
+### City-Wise Distribution
+![City Distribution](images/Distribution_of_accident_count_by_city.png)
+
+
 
 ---
 
