@@ -62,7 +62,7 @@ You can download it from Kaggle:
 ## Visualization Examples
 
 ### Accidents by Hour
-![Accidents by Hour](images/accidents_by_hour(1).png)
+![Accidents by Hour](images/accidents_by_hour (1).png)
 
 ### Top 10 Accident-Prone Cities
 ![Top Cities](images/Top_10_accident_prone_city.png)
@@ -78,6 +78,7 @@ You can download it from Kaggle:
 
 ### Visibility Impact
 ![Visibility](images/Accident_severity_by_visibility.png)
+
 
 ---
 
