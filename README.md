@@ -1,11 +1,16 @@
 # US Accident Data Analysis
 
-This project performs Exploratory Data Analysis (EDA) on the US Accidents dataset to understand patterns in traffic accidents across the United States.
+![Python](https://img.shields.io/badge/python-3.9-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Dataset](https://img.shields.io/badge/dataset-Kaggle-orange)
+
+---
 
 ## Project Overview
+Traffic accidents are a major public safety concern.  
+This project performs **Exploratory Data Analysis (EDA)** on the US Accidents dataset to understand patterns in traffic accidents across the United States.
 
-Traffic accidents are a major public safety concern. This analysis explores accident trends based on:
-
+The analysis explores accident trends based on:
 - Geographic distribution
 - Time patterns
 - Weather conditions
@@ -16,49 +21,81 @@ The goal is to identify factors that contribute to accident frequency and severi
 ---
 
 ## Tools Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Plotly  
+- Folium  
+- Jupyter Notebook  
 
 ---
+
 
 ## Project Structure
 
 ```
 us-accident-data-analysis
 │
-├── data
+├── data    # Dataset location (empty, Kaggle link provided)
 │
-├── images
+├── images  # Important saved visualizations
 │
 ├── notebooks
 │   └── accident_analysis.ipynb
 │
-└── requirements.txt
+└── requirements.txt   # Python dependencies
 ```
 
----
+
 
 ## Dataset
+The dataset used in this project is the **US Accidents Dataset**.  
+Due to its large size, the dataset is not included in this repository.  
 
-The dataset used in this project is the US Accidents Dataset.
+You can download it from Kaggle:  
+[US Accidents Dataset](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
-Due to its large size, the dataset is not included in this repository.
-
-You can download it from Kaggle:
-https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 ---
 
-## Key Analysis Performed
+## Visualization Examples
 
-- Data cleaning and missing value analysis
-- City-wise accident distribution
-- Time-based accident patterns
-- Weather and visibility impact on accidents
-- Visualization of accident trends
+### Accidents by Hour
+![Accidents by Hour](images/accidents_by_hour.png)
+
+### Top 10 Accident-Prone Cities
+![Top Cities](images/top_10_accident_prone_city.png)
+
+### Top 10 Accident-Prone States
+![Top States](images/top_10_accident_prone_state.png)
+
+### Accident Heatmap
+![Heatmap](images/distribution_heatmap.png)
+
+### Weather Conditions
+![Weather Conditions](images/weather_conditions.png)
+
+### Visibility Impact
+![Visibility](images/Accident_severity_by_visibility.png)
+
+---
+
+## Key Insights
+- Most accidents occur during rush hours .  
+- Weather conditions like rain and fog increase accident frequency.  
+- Certain states and cities show significantly higher accident counts.  
+- Urban areas report more accidents than rural areas.  
+- Visibility plays a major role in accident severity.  
+- Accident trends vary across weekdays and months.  
+
+---
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/us-accident-data-analysis.git
 
 ---
 
